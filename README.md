@@ -5,6 +5,10 @@
 
 ## 环境搭建
 
+
+
+## 环境搭建
+
 1.创建docker容器,相关脚本放在`/docker`目录下
 
 2.进入容器,安装必要依赖
@@ -20,6 +24,7 @@ apt-get update
 
 2.2 安装依赖
 
+
 ```bash
 apt-get install -y clang make
 ```
@@ -32,6 +37,7 @@ apt-get install -y clang make
 ```bash
 tar -zxvf riscv64-elf-ubuntu-20.04-nightly-2023.04.21-nightly.tar.gz
 
+# 解压后生成的文件夹为riscv,我们需要的交叉编译器为riscv64-unknown-elf-gcc
 # 解压后生成的文件夹为riscv,我们需要的交叉编译器为riscv64-unknown-elf-gcc
 ```
 - 配置环境变量
